@@ -76,3 +76,14 @@ projects[ding_event][type] = module
 projects[ding_event][download][type] = git
 projects[ding_event][download][url] = git@github.com:ding2/ding_event.git
 projects[ding_event][download][tag] = "7.x-0.20"
+
+; BPI module
+projects[bpi][type] = module
+projects[bpi][download][type] = git
+projects[bpi][download][url] = git@github.com:bpi-dk/bpi.git
+projects[bpi][download][branch] = "develop"
+
+libraries[bpi-client][destination]      = "modules/bpi/lib"
+libraries[bpi-client][download][type]   = "git"
+libraries[bpi-client][download][url]    = "git@github.com:bpi-dk/bpi-client.git"
+libraries[bpi-client][download][branch] = "develop"
